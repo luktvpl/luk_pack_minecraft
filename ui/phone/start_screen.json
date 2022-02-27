@@ -1,0 +1,291 @@
+////162
+
+{
+	"namespace": "phone_apps_screen",
+
+	"home_screen_content": {
+		"type": "stack_panel",
+		"offset": [8,4],
+		"controls": [
+			{
+				"row1":{
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": ["100%",62],
+					"controls": [
+						{
+							"1":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"alarm@apps.alarm": {}}
+								]
+							}
+						},
+						{
+							"2":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"bluetooth@apps.bluetooth": {}}
+								]
+							}
+						},
+						{
+							"3":{
+								"type": "stack_panel",
+								"controls": [
+									{"calculator@apps.calculator": {}}
+								]
+							}
+						}
+					]
+				}
+			},
+
+
+			{
+				"row2":{
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": ["100%",62],
+					"controls": [
+						{
+							"1":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"calendar@apps.calendar": {}}
+								]
+							}
+						},
+						{
+							"2":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"camera@apps.camera": {}}
+								]
+							}
+						},
+						{
+							"3":{
+								"type": "stack_panel",
+								"controls": [
+									{"chrome@apps.chrome": {}}
+								]
+							}
+						}
+					]
+				}
+			},
+
+
+
+
+			{
+				"row3":{
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": ["100%",62],
+					"controls": [
+						{
+							"1":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"cloud_print@apps.cloud_print": {}}
+								]
+							}
+						},
+						{
+							"2":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"discord@apps.discord": {}}
+								]
+							}
+						},
+						{
+							"3":{
+								"type": "stack_panel",
+								"controls": [
+									{"drive@apps.drive": {}}
+								]
+							}
+						}
+					]
+				}
+			},
+
+
+
+			{
+				"row4":{
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": ["100%",62],
+					"controls": [
+						{
+							"1":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"facebook@apps.facebook": {}}
+								]
+							}
+						},
+						{
+							"2":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"gmail@apps.gmail": {}}
+								]
+							}
+						},
+						{
+							"3":{
+								"type": "stack_panel",
+								"controls": [
+									{"info@apps.info": {}}
+								]
+							}
+						}
+					]
+				}
+			},
+
+
+			{
+				"row5":{
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": ["100%",62],
+					"controls": [
+						{
+							"1":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"messaging@apps.messaging": {}}
+								]
+							}
+						},
+						{
+							"2":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"minecraft@apps.minecraft": {}}
+								]
+							}
+						},
+						{
+							"3":{
+								"type": "stack_panel",
+								"controls": [
+									{"phone@apps.phone": {}}
+								]
+							}
+						}
+					]
+				}
+			},
+
+			{
+				"row6":{
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": ["100%",62],
+					"controls": [
+						{
+							"1":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"photos@apps.photos": {}}
+								]
+							}
+						},
+						{
+							"2":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"play_music@apps.play_music": {}}
+								]
+							}
+						},
+						{
+							"3":{
+								"type": "stack_panel",
+								"controls": [
+									{"play_store@apps.play_store": {}}
+								]
+							}
+						}
+					]
+				}
+			},
+
+
+
+			{
+				"row7":{
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": ["100%",62],
+					"controls": [
+						{
+							"1":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"settings@apps.settings": {}}
+								]
+							}
+						},
+						{
+							"2":{
+								"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"youtube@apps.youtube": {}}
+								]
+							}
+						}
+					]
+				}
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+		]
+	},
+
+
+
+
+
+	"scrolling@common.scrolling_panel": {
+		"$show_background": false,
+		"$scrolling_content": "phone_apps_screen.home_screen_content"
+	},
+
+	"home_screen_border@common_dialogs.main_panel_no_buttons": {
+		"size": [188 ,"90%" ],
+		"$text_name": "Minephone X1",
+		"$child_control": "phone_apps_screen.scrolling"
+	}
+}

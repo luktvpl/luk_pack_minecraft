@@ -21,6 +21,5 @@
   "$light_glyph_default_color": [ 1.0, 1.0, 1.0  ],
   "$store_sales_banner_text_color": [ 1.0, 1.0, 1.0  ],
   "$new_offer_icon_text_color": [ 1.0, 1.0, 1.0  ],
-  "$store_dark_grey_text_color": [ 1.0, 1.0, 1.0  ],
-	
+  "$store_dark_grey_text_color": [ 1.0, 1.0, 1.0  ]
 }

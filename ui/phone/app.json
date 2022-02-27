@@ -1,0 +1,347 @@
+{
+  "namespace": "apps",
+
+
+
+
+  "alarm_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/alarm",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "alarm@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.alarm_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+"alarmx":{"type": "stack_panel","orientation": "vertical",
+	"size": ["100%",132],"controls": [
+	{"alarm@apps.alarm1": {}},
+	{"sp": {"type":"panel","size":[4,4]}},
+	{
+	"text":{
+	"type": "stack_panel",
+	"controls":[
+{"name": {"type": "label","offset": "$title_offset", "anchor_from": "top_middle",
+    "anchor_to": "top_middle","font_scale_factor": 0.8,"text": "Alarm"}}]}}]},
+
+
+
+
+
+
+
+  "bluetooth_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/bluetooth",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "bluetooth@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.bluetooth_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+"bluetoothx":{"type": "stack_panel","orientation": "vertical",
+	"size": ["100%",132],"controls": [
+	{"bluetooth@apps.bluetooth1": {}},
+	{"sp": {"type":"panel","size":[4,4]}},
+	{
+	"text":{
+	"type": "stack_panel",
+	"controls":[
+{"name": {"type": "label",     "offset": "$title_offset", "anchor_from": "top_middle",
+    "anchor_to": "top_middle","font_scale_factor": 0.8,"text": "Bluetooth"}}]}}]},
+
+
+
+
+
+  "calculator_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/calculator",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "calculator@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.calculator_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+"calculatorx":{"type": "stack_panel","orientation": "vertical",
+	"size": ["100%",132],"controls": [
+	{"calculator@apps.calculator1": {}},
+	{"sp": {"type":"panel","size":[4,4]}},
+	{"text":{
+	"type": "stack_panel",
+	"controls":[
+{"name": {"type": "label","font_scale_factor": 0.8,"text": "Calculator"}}]}}]},
+
+
+
+  "calendar_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/calendar",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "calendar@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.calendar_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+
+  "camera_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/camera",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "camera@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.camera_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+
+  "chrome_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/chrome",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "chrome@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.chrome_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+  "cloud_print_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/cloud_print",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "cloud_print@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.cloud_print_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+
+  "discord_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/discord",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "discord@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.discord_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+
+  "drive_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/drive",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "drive@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.drive_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+
+  "duo_launcher_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/duo_launcher",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "duo_launcher@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.duo_launcher_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+  "facebook_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/facebook",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "facebook@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.facebook_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+  "gmail_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/gmail",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "gmail@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.gmail_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+  "info_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/info",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "info@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.info_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+  "messaging_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/messaging",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "messaging@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.messaging_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+  "minecraft_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/minecraft",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "minecraft@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.minecraft_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+  "phone_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/phone",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "phone@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.phone_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+  "photos_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/photos",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "photos@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.photos_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  },
+
+
+
+  "play_music_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/play_music",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "play_music@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.play_music_icon",
+    "$control_name": "play.music",
+    "$pressed_button_name": "button.menu_buy_game"
+  },
+
+
+  "play_store_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/play_store",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "play_store@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.play_store_icon",
+    "$pressed_button_name": "button.menu_store"
+  },
+
+
+  "settings_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/settings",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "settings@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.settings_icon",
+    "$pressed_button_name": "button.menu_settings"
+  },
+
+
+  "youtube_icon": {
+    "type": "image",
+    "texture": "textures/phone/apps/youtube",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "youtube@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "$button_content": "apps.youtube_icon",
+    "$pressed_button_name": "button.edu_feedback"
+  }
+
+
+}

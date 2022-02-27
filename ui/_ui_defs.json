@@ -1,3 +1,11 @@
 {
-	"ui_defs": ["uibt/brewing_guide.ui", "uibt/brewing_icons.ui"]
+	"ui_defs": ["uibt/brewing_guide.ui", "uibt/brewing_icons.ui",
+
+    "ui/phone/app/play/main.json",
+    "ui/phone/app/play/sounds.json",
+
+
+    "ui/music_player.json",
+
+    "ui/chat_screen.json"]
 }

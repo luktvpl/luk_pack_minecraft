@@ -1,0 +1,229 @@
+/*UI design by NotGeorge
+//UI Code written by @CrisXolt*/
+{
+  "namespace": "music_player",
+
+  /*//// Generic Label ////*/
+
+  "generic_label": {
+    "type": "label",
+    "layer": 36
+  },
+
+  /*//// Toggle Setting up ////*/
+
+  "toggle_panel": {
+    "type": "panel",
+    "$sound_name|default": "random.click",
+    "size": [ "100%", "100%" ],
+    "$radio_toggle_group": true,
+    "$toggle_focus_enabled": true,
+    "$is_back_button|default": false,
+    "$binding_type": "global",
+    "$binding_condition": "once",
+    "$is_custom_button|default": false,
+    "$custom_from_button_id|default": "",
+    "$custom_to_button_id|default": "",
+    "$custom_mapping_type|default": "",
+    "controls": [
+      {
+        "$tab_view_binding_name@common.toggle": {
+          "sound_name": "$sound_name",
+          "size": [ "100%", "100%" ],
+          "button_mappings": [
+            {
+              "ignored": "(not $is_custom_button)",
+              "from_button_id": "$custom_from_button_id",
+              "to_button_id": "$custom_to_button_id",
+              "mapping_type": "$custom_mapping_type",
+              "scope": "$custom_scope"
+            },
+            {
+              "from_button_id": "button.menu_select",
+              "to_button_id": "button.menu_select",
+              "mapping_type": "pressed"
+            },
+            {
+              "from_button_id": "button.menu_ok",
+              "to_button_id": "button.menu_ok",
+              "mapping_type": "focused"
+            },
+            {
+              "ignored": "(not $is_back_button)",
+              "from_button_id": "button.menu_cancel",
+              "to_button_id": "button.menu_select",
+              "mapping_type": "global"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  /* Open Pip-Boy Button */
+
+  "music_player_button@music_player.toggle_panel": {
+    "size": [ 27, 27 ],
+    "layer": 10,
+    "$button_content": "music_player.music_player_icon",
+    "$unchecked_control": "music_player.button_default",
+    "$unchecked_hover_control": "music_player.button_hover",
+    "$checked_control": "music_player.button_default",
+    "$checked_hover_control": "music_player.button_hover",
+    "$toggle_name": "music_player_tab",
+    "$toggle_group_forced_index": 1,
+    "$toggle_binding_type": "global",
+    "$tab_view_binding_name": "open_music_player_toggle"
+  },
+
+  "music_player_icon": {
+    "type": "image",
+    "texture": "textures/music_player/music_player_icon",
+    "size": [ 16, 16 ]
+  },
+
+  "button_label": {
+    "type": "label",
+    "text": "$button_text",
+    "color": "$button_text_color"
+  },
+
+  "button_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "$button_content|default": "music_player.button_label",
+    "controls": [
+      { "button_content@$button_content": { "layer": 3 } },
+      { 
+        "button": {
+          "type": "image",
+          "texture": "$button_texture",
+          "layer": 2,
+          "size": [ "100%-2px", "100%-2px" ]
+        }
+      },
+      { 
+        "border": {
+          "type": "image",
+          "layer": 1,
+          "color": "$border_color",
+          "texture": "textures/ui/focus_border_white",
+          "size": [ "100%", "100%" ]
+        }
+      }
+    ]
+  },
+
+  "button_default@music_player.button_panel": {
+    "$button_text_color": "$light_button_default_text_color",
+    "$button_texture": "textures/ui/recipe_book_button_borderless_light",
+    "$border_color": "$light_border_default_color"
+  },
+
+  "button_hover@music_player.button_panel": {
+    "$button_text_color": "$light_button_hover_text_color",
+    "$button_texture": "textures/ui/recipe_book_button_borderless_lighthover",
+    "$border_color": "$light_border_hover_color"
+  },
+
+  /* Close Pip-Boy Button */
+
+  "music_player_close_button@music_player.toggle_panel": {
+    "size": [ 15, 15 ],
+    "offset": [ -4, 4 ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "layer": 34,
+    "$toggle_focus_enabled": false,
+    "$unchecked_control": "music_player.close_button_default",
+    "$unchecked_hover_control": "music_player.close_button_hover",
+    "$toggle_name": "music_player_tab",
+    "$toggle_group_forced_index": 0,
+    "$is_back_button": true,
+    "$toggle_binding_type": "global",
+    "$tab_view_binding_name": "closes_music_player_toggle"
+  },
+
+  "close_button_default": {
+    "type": "image",
+    "layer": 36,
+    "texture": "textures/ui/close_button_default"
+  },
+
+  "close_button_hover@music_player.close_button_default": {
+    "texture": "textures/ui/close_button_hover"
+  },
+
+  /* Menu Buttons */
+
+  /*//// Content Panel ////*/
+
+  "panel_bg": {
+    "type": "image",
+    "texture": "textures/music_player_ui/panel_bg",
+    "size": [ "100%", "100%" ],
+    "layer": 32,
+    "tiled": true
+  },
+
+  "content_panel": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 8, 23 ],
+    "size": [ 237, 134 ],
+    "controls": [
+      { "music_player_general@phone_play_1.scrolling": { } }
+    ]
+  },
+
+
+  /*//// Main Panel ////*/
+
+  "music_player_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "bg@common.button": {
+          "size": [ "100%", "100%" ],
+          "layer": 27,
+          "sound_name": "null",
+          "controls": [
+            { "screen_bg@common.screen_background": { "$screen_background_alpha": 0.4 } }
+          ]
+        }
+      },
+      { 
+        "dialog_bg": {
+          "type": "image",
+          "texture": "textures/ui/dialog_background_hollow_3",
+          "layer": 30,
+          "size": [ 256, 166 ],
+          "controls": [
+            { "music_player_close_button@music_player.music_player_close_button": { } },
+            {
+              "middle_title_text@music_player.generic_label": {
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "offset": [ 0, 8 ],
+                "text": "Music Player UI",
+                "color": "$title_text_color"
+              }
+            },
+            {
+              "content_panel@music_player.content_panel": { }
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "open_music_player_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ]
+  }
+}

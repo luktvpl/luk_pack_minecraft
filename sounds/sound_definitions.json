@@ -1,0 +1,186 @@
+{
+
+  "phone.music.1": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_1",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.2": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_2",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.3": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_3",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.4": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_4",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.5": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_5",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.6": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_6",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.7": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_7",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.8": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_8",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.9": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_9",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.10": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_10",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.11": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_11",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.12": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_12",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.13": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_13",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.14": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_14",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.15": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_15",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.16": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_16",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.17": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_17",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.18": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_18",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.19": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_19",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "phone.music.20": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/phone/music/music_20",
+        "load_on_low_memory": true
+      }
+    ]
+  }
+
+
+
+}

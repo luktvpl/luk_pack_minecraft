@@ -1,0 +1,204 @@
+{
+	"namespace": "phone_play_sounds",
+
+  "play_icon_1": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/1",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+  "play_icon_2": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/2",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+  "play_icon_3": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/3",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+  "play_icon_4": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/4",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+  "play_icon_5": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/5",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+  "play_icon_6": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/6",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+  "play_icon_7": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/7",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+  "play_icon_8": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/8",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+  "play_icon_9": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/9",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+  "play_icon_10": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/10",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+  "play_icon_11": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/11",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+  "play_icon_12": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/12",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+  "play_icon_13": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/13",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "play_icon_14": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/14",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "play_icon_15": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/15",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "play_icon_16": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/16",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "play_icon_17": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/17",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "play_icon_18": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/18",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "play_icon_19": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/19",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+  "play_icon_20": {
+    "type": "image",
+    "texture": "textures/music_player/song_icon/20",
+    "layer": 3,
+    "size": [ 36, 36 ]
+  },
+
+
+
+
+
+
+
+
+
+  "music@common_buttons.light_content_button": {
+    "size": [ 45, 45 ],
+    "sound_name": "$song"
+  },
+
+
+
+
+"row":{
+"type": "panel",
+"size": ["100%",60],
+"controls":[
+{
+  "bg": {
+    "type": "image",
+    "texture": "textures/ui/button_red",
+    "layer": 0,
+    "size": [ "100%", 56 ]
+  }
+},
+
+{
+			"content":{
+				"type": "stack_panel",
+				"orientation": "horizontal",
+				"size": ["100%",56],
+				"offset": [6,6],
+  				    "layer": 1,
+				"anchor_from":"left_middle",
+				"anchor_to":"left_middle",
+				"controls": [
+					{
+						"1":{
+							"type": "stack_panel",
+								"size": [54,"100%"],
+								"controls": [
+									{"play@phone_play_sounds.music": {}}
+								]
+							}
+						},
+						{
+							"2":{
+								"type": "stack_panel",
+								"size": ["100%","100%"],
+								"controls": [
+									{"text": {"type": "label","text": "$name1"}},
+									{"text": {"type": "label","text": "$name2"}},
+									{"text": {"type": "label","text": "$name3"}},
+									{"text": {"type": "label","text": "$name4"}}
+								]
+							}
+						}
+
+					]
+				}
+}
+
+
+
+
+
+]
+}
+
+}

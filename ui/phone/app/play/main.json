@@ -1,0 +1,234 @@
+////162
+
+{
+	"namespace": "phone_play_1",
+
+	"home_screen_content": {
+		"type": "stack_panel",
+		"offset": [8,4],
+		"controls": [
+
+			{
+				"song1@phone_play_sounds.row":{
+"$name1":"1name.music.1",
+"$name2":"2name.music.1",
+"$name3":"3name.music.1",
+"$name4":"4name.music.1",
+"$button_content": "phone_play_sounds.play_icon_1",
+"$song": "phone.music.1"}},
+
+
+			{
+				"song2@phone_play_sounds.row":{
+"$name1":"1name.music.2",
+"$name2":"2name.music.2",
+"$name3":"3name.music.2",
+"$name4":"4name.music.2",
+"$button_content": "phone_play_sounds.play_icon_2",
+"$song": "phone.music.2"}},
+
+			{
+				"song3@phone_play_sounds.row":{
+"$name1":"1name.music.3",
+"$name2":"2name.music.3",
+"$name3":"3name.music.3",
+"$name4":"4name.music.3",
+"$button_content": "phone_play_sounds.play_icon_3",
+"$song": "phone.music.3"}},
+
+			{
+				"song4@phone_play_sounds.row":{
+"$name1":"1name.music.4",
+"$name2":"2name.music.4",
+"$name3":"3name.music.4",
+"$name4":"4name.music.4",
+"$button_content": "phone_play_sounds.play_icon_4",
+"$song": "phone.music.4"}},
+
+
+			{
+				"song5@phone_play_sounds.row":{
+"$name1":"1name.music.5",
+"$name2":"2name.music.5",
+"$name3":"3name.music.5",
+"$name4":"4name.music.5",
+"$button_content": "phone_play_sounds.play_icon_5",
+"$song": "phone.music.5"}},
+
+			{
+				"song6@phone_play_sounds.row":{
+"$name1":"1name.music.6",
+"$name2":"2name.music.6",
+"$name3":"3name.music.6",
+"$name4":"4name.music.6",
+"$button_content": "phone_play_sounds.play_icon_6",
+"$song": "phone.music.6"}},
+
+			{
+				"song7@phone_play_sounds.row":{
+"$name1":"1name.music.7",
+"$name2":"2name.music.7",
+"$name3":"3name.music.7",
+"$name4":"4name.music.7",
+"$button_content": "phone_play_sounds.play_icon_7",
+"$song": "phone.music.7"}},
+
+			{
+				"song8@phone_play_sounds.row":{
+"$name1":"1name.music.8",
+"$name2":"2name.music.8",
+"$name3":"3name.music.8",
+"$name4":"4name.music.8",
+"$button_content": "phone_play_sounds.play_icon_8",
+"$song": "phone.music.8"}},
+
+			{
+				"song9@phone_play_sounds.row":{
+"$name1":"1name.music.9",
+"$name2":"2name.music.9",
+"$name3":"3name.music.9",
+"$name4":"4name.music.9",
+"$button_content": "phone_play_sounds.play_icon_9",
+"$song": "phone.music.9"}},
+
+			{
+				"song10@phone_play_sounds.row":{
+"$name1":"1name.music.10",
+"$name2":"2name.music.10",
+"$name3":"3name.music.10",
+"$name4":"4name.music.10",
+"$button_content": "phone_play_sounds.play_icon_10",
+"$song": "phone.music.10"}},
+
+			{
+				"song11@phone_play_sounds.row":{
+"$name1":"1name.music.11",
+"$name2":"2name.music.11",
+"$name3":"3name.music.11",
+"$name4":"4name.music.11",
+"$button_content": "phone_play_sounds.play_icon_11",
+"$song": "phone.music.11"}},
+
+			{
+				"song12@phone_play_sounds.row":{
+"$name1":"1name.music.12",
+"$name2":"2name.music.12",
+"$name3":"3name.music.12",
+"$name4":"4name.music.12",
+"$button_content": "phone_play_sounds.play_icon_12",
+"$song": "phone.music.12"}},
+
+			{
+				"song13@phone_play_sounds.row":{
+"$name1":"1name.music.13",
+"$name2":"2name.music.13",
+"$name3":"3name.music.13",
+"$name4":"4name.music.13",
+"$button_content": "phone_play_sounds.play_icon_13",
+"$song": "phone.music.13"}},
+
+			{
+				"song14@phone_play_sounds.row":{
+"$name1":"1name.music.14",
+"$name2":"2name.music.14",
+"$name3":"3name.music.14",
+"$name4":"4name.music.14",
+"$button_content": "phone_play_sounds.play_icon_14",
+"$song": "phone.music.14"}},
+
+			{
+				"song15@phone_play_sounds.row":{
+"$name1":"1name.music.15",
+"$name2":"2name.music.15",
+"$name3":"3name.music.15",
+"$name4":"4name.music.15",
+"$button_content": "phone_play_sounds.play_icon_15",
+"$song": "phone.music.15"}},
+
+			{
+				"song16@phone_play_sounds.row":{
+"$name1":"1name.music.16",
+"$name2":"2name.music.16",
+"$name3":"3name.music.16",
+"$name4":"4name.music.16",
+"$button_content": "phone_play_sounds.play_icon_16",
+"$song": "phone.music.16"}},
+
+			{
+				"song17@phone_play_sounds.row":{
+"$name1":"1name.music.17",
+"$name2":"2name.music.17",
+"$name3":"3name.music.17",
+"$name4":"4name.music.17",
+"$button_content": "phone_play_sounds.play_icon_17",
+"$song": "phone.music.17"}},
+
+			{
+				"song18@phone_play_sounds.row":{
+"$name1":"1name.music.18",
+"$name2":"2name.music.18",
+"$name3":"3name.music.18",
+"$name4":"4name.music.18",
+"$button_content": "phone_play_sounds.play_icon_18",
+"$song": "phone.music.18"}},
+
+			{
+				"song19@phone_play_sounds.row":{
+"$name1":"1name.music.19",
+"$name2":"2name.music.19",
+"$name3":"3name.music.19",
+"$name4":"4name.music.19",
+"$button_content": "phone_play_sounds.play_icon_19",
+"$song": "phone.music.19"}},
+
+			{
+				"song20@phone_play_sounds.row":{
+"$name1":"1name.music.20",
+"$name2":"2name.music.20",
+"$name3":"3name.music.20",
+"$name4":"4name.music.20",
+"$button_content": "phone_play_sounds.play_icon_20",
+"$song": "phone.music.20"}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		]
+	},
+
+
+
+
+
+	"scrolling@common.scrolling_panel": {
+		"$show_background": false,
+		"$scrolling_content": "phone_play_1.home_screen_content",
+    "layer": 0
+	},
+
+	"home_screen_border@common_dialogs.main_panel_no_buttons": {
+		"size": ["90%" ,"70%" ],
+		"$text_name": "Minephone X1",
+		"$child_control": "phone_play_1.scrolling"
+  }
+}

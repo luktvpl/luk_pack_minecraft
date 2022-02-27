@@ -1,0 +1,24 @@
+{
+  "chat_bottom_panel": {
+    "controls": [
+      { "keyboard_button@chat.keyboard_button": {} },
+      { "host_main_button@host_options.host_main_button": { "ignored": "$is_pregame" } },
+      { "chat_settings@chat.chat_settings_button": {} },
+      { "music_player_button@music_player.music_player_button": {} }, ////*/ Added /*////
+      { "text_box@chat.text_edit_box": {} },
+      { "send_button@chat.send_button": { "offset": [ -20, 0 ] } }
+    ]
+  },
+
+  "chat_screen_content": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          { "music_player_2_panel@music_player.music_player_panel": { } } ////*/ Added /*////
+        ]
+      }
+    ]
+  }
+}

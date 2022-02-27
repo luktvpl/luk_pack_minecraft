@@ -1,0 +1,12 @@
+{
+	"namespace": "crafting_pocket",
+
+	"right_panel": {
+		"modifications": [
+			{
+				"control_name": "help_button",
+				"operation": "remove"
+			}
+		]
+	}
+}

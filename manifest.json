@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "luk_pack",
+        "name": "paczka luka",
+        "uuid": "7f78abfc-32eb-4c87-aa73-1210ab02a5ad",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 18, 10 ]
+    },
+    "modules": [
+        {
+            "description": "Dobra paczka",
+            "type": "resources",
+            "uuid": "2c5eea13-aab3-4865-81f8-660d17a8e9ba",
+            "version": [0, 0, 1]
+        }
+    ]
+}

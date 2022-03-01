@@ -14,5 +14,16 @@
         "value": { "brewing_ingredients_panel@bt_brewing_guide.brewing_ingredients_panel": {} }
       }
     ]
+  },
+"brewing_stand_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": {
+          "selected_tool_panel@common.selected_tool_panel": {}
+        }
+      }
+    ]
   }
 }

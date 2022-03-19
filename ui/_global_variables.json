@@ -1,4 +1,6 @@
 {
+  "$coordinates_offset": [ 0, 20 ], 
+  "$player_rend_offset": [ 15, 28 ],
   "$light_button_default_text_color": [ 1.0, 1.0, 1.0 ],
   "$light_toggle_default_text_color": [ 1.0, 1.0, 1.0  ],
   "$light_toggle_checked_default_text_color": [ 1.0, 1.0, 1.0  ],

@@ -1,0 +1,46 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+	  "animation.player.entity_count" : {
+			"loop" : true,
+			"bones" : {
+			  "e_sat" : {
+				  "position" : [ "40.0 + v.e1 + v.e2 + v.e3 + v.e4 + v.e5 + v.e6", "q.is_swimming ? -849 + v.dof - 8.5 : -832 + v.dof - 8.5", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				 "e_pul" : {
+				  "position" : [ "40.0 + v.e2 + v.e3 + v.e4 + v.e5 + v.e6", "q.is_swimming ? -849 + v.dof - 8.5 : -832 + v.dof - 8.5", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				 "e_rat" : {
+				  "position" : [ "40.0 + v.e3 + v.e4 + v.e5 + v.e6", "q.is_swimming ? -849 + v.dof - 8.5 : -832 + v.dof - 8.5", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				 "e_rib" : {
+				  "position" : [ "40.0 + v.e4 + v.e5 + v.e6", "q.is_swimming ? -849 + v.dof - 8.5 : -832 + v.dof - 8.5", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				 "e_pulrib" : {
+				  "position" : [ "40.0 + v.e5 + v.e6", "q.is_swimming ? -849 + v.dof - 8.5 : -832 + v.dof - 8.5", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				 "e_ratrib" : {
+				  "position" : [ "40.0 + v.e6", "q.is_swimming ? -849 + v.dof - 8.5 : -832 + v.dof - 8.5", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				 "e_jt" : {
+				  "position" : [ 40.0, "q.is_swimming ? -849 + v.dof - 8.5 : -832 + v.dof - 8.5", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				"e" : {
+				  "position" : [ 41.5, "q.is_swimming ? -864 + v.dof - 8.5 : -847 + v.dof - 8.5", 0.0 ],
+			    "scale" : 1.5
+				}, 
+				"e_bg" : {
+				  "position" : [ "-9.0 + v.e1 + v.e2 + v.e3 + v.e4 + v.e5 + v.e6", "q.is_swimming ? -942.0 + v.dof - 8.5 : -925.0 + v.dof - 8.5", 0.5 ],
+			    "scale" : 8
+				}
+			}
+		}
+	}
+}

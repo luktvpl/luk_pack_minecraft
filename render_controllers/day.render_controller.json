@@ -1,0 +1,203 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.day_sat": {
+      "textures": [ "Array.day[ math.floor(q.day) ]" ],
+      "is_hurt_color": { },
+      "on_fire_color": { },
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }, 
+      "geometry": "Geometry.day_sat",
+      "materials": [ { "*": "Material.default" } ],
+      "arrays": {
+        "textures": {
+          "Array.day": [
+            "Texture.nol", 
+            "Texture.satu", 
+            "Texture.dua", 
+            "Texture.tiga", 
+            "Texture.empat", 
+            "Texture.lima", 
+            "Texture.enam", 
+            "Texture.tujuh", 
+            "Texture.delapan", 
+            "Texture.sembilan"
+          ]
+        }
+      }
+    }, 
+    
+    "controller.render.day_pul": {
+      "textures": [ "Array.day[ math.floor(q.day/10) ]" ],
+      "is_hurt_color": { },
+      "on_fire_color": { },
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }, 
+      "geometry": "Geometry.day_pul",
+      "part_visibility": [ { "*": "q.day >= 10" } ], 
+      "materials": [ { "*": "Material.default" } ],
+      "arrays": {
+        "textures": {
+          "Array.day": [
+            "Texture.nol", 
+            "Texture.satu", 
+            "Texture.dua", 
+            "Texture.tiga", 
+            "Texture.empat", 
+            "Texture.lima", 
+            "Texture.enam", 
+            "Texture.tujuh", 
+            "Texture.delapan", 
+            "Texture.sembilan"
+          ]
+        }
+      }
+    }, 
+    
+    "controller.render.day_rat": {
+      "textures": [ "Array.day[ math.floor(q.day/100) ]" ],
+      "is_hurt_color": { },
+      "on_fire_color": { },
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }, 
+      "geometry": "Geometry.day_rat",
+      "part_visibility": [ { "*": "q.day >= 100" } ], 
+      "materials": [ { "*": "Material.default" } ],
+      "arrays": {
+        "textures": {
+          "Array.day": [
+            "Texture.nol", 
+            "Texture.satu", 
+            "Texture.dua", 
+            "Texture.tiga", 
+            "Texture.empat", 
+            "Texture.lima", 
+            "Texture.enam", 
+            "Texture.tujuh", 
+            "Texture.delapan", 
+            "Texture.sembilan"
+          ]
+        }
+      }
+    }, 
+    
+    "controller.render.day_rib": {
+      "textures": [ "Array.day[ math.floor(q.day/1000) ]" ],
+      "is_hurt_color": { },
+      "on_fire_color": { },
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }, 
+      "geometry": "Geometry.day_rib",
+      "part_visibility": [ { "*": "q.day >= 1000" } ], 
+      "materials": [ { "*": "Material.default" } ],
+      "arrays": {
+        "textures": {
+          "Array.day": [
+            "Texture.nol", 
+            "Texture.satu", 
+            "Texture.dua", 
+            "Texture.tiga", 
+            "Texture.empat", 
+            "Texture.lima", 
+            "Texture.enam", 
+            "Texture.tujuh", 
+            "Texture.delapan", 
+            "Texture.sembilan"
+          ]
+        }
+      }
+    }, 
+    
+    "controller.render.day_pulrib": {
+      "textures": [ "Array.day[ math.floor(q.day/10000) ]" ],
+      "is_hurt_color": { },
+      "on_fire_color": { },
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }, 
+      "geometry": "Geometry.day_pulrib",
+      "part_visibility": [ { "*": "q.day >= 10000" } ], 
+      "materials": [ { "*": "Material.default" } ],
+      "arrays": {
+        "textures": {
+          "Array.day": [
+            "Texture.nol", 
+            "Texture.satu", 
+            "Texture.dua", 
+            "Texture.tiga", 
+            "Texture.empat", 
+            "Texture.lima", 
+            "Texture.enam", 
+            "Texture.tujuh", 
+            "Texture.delapan", 
+            "Texture.sembilan"
+          ]
+        }
+      }
+    }, 
+    
+    "controller.render.day_ratrib": {
+      "textures": [ "Array.day[ math.floor(q.day/100000) ]" ],
+      "is_hurt_color": { },
+      "on_fire_color": { },
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }, 
+      "geometry": "Geometry.day_ratrib",
+      "part_visibility": [ { "*": "q.day >= 100000" } ], 
+      "materials": [ { "*": "Material.default" } ],
+      "arrays": {
+        "textures": {
+          "Array.day": [
+            "Texture.nol", 
+            "Texture.satu", 
+            "Texture.dua", 
+            "Texture.tiga", 
+            "Texture.empat", 
+            "Texture.lima", 
+            "Texture.enam", 
+            "Texture.tujuh", 
+            "Texture.delapan", 
+            "Texture.sembilan"
+          ]
+        }
+      }
+    }, 
+    
+    "controller.render.day_jt": {
+      "textures": [ "Array.day[ math.floor(q.day/1000000) ]" ],
+      "is_hurt_color": { },
+      "on_fire_color": { },
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }, 
+      "geometry": "Geometry.day_jt",
+      "part_visibility": [ { "*": "q.day >= 1000000" } ], 
+      "materials": [ { "*": "Material.default" } ],
+      "arrays": {
+        "textures": {
+          "Array.day": [
+            "Texture.nol", 
+            "Texture.satu", 
+            "Texture.dua", 
+            "Texture.tiga", 
+            "Texture.empat", 
+            "Texture.lima", 
+            "Texture.enam", 
+            "Texture.tujuh", 
+            "Texture.delapan", 
+            "Texture.sembilan"
+          ]
+        }
+      }
+    }, 
+    
+    "controller.render.day": {
+      "textures": [ "Texture.day" ],
+      "is_hurt_color": { },
+      "on_fire_color": { },
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }, 
+      "geometry": "Geometry.day",
+      "materials": [ { "*": "Material.default" } ]
+    }, 
+    
+    "controller.render.day_bg": {
+      "textures": [ "Texture.bbg" ],
+      "is_hurt_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 0.1 },
+      "on_fire_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 0.1 }, 
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 0.1 }, 
+      "geometry": "Geometry.day_bg",
+      "materials": [ { "*": "Material.default" } ]
+    }
+  }
+}

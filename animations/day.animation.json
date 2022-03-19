@@ -1,0 +1,46 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+	  "animation.player.day" : {
+			"loop" : true,
+			"bones" : {
+			  "day_sat" : {
+				  "position" : [ "54.0 + v.d1 + v.d2 + v.d3 + v.d4 + v.d5 + v.d6", "q.is_swimming ? -849 + v.dof : -832 + v.dof", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				 "day_pul" : {
+				  "position" : [ "54.0 + v.d2 + v.d3 + v.d4 + v.d5 + v.d6", "q.is_swimming ? -849 + v.dof : -832 + v.dof", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				 "day_rat" : {
+				  "position" : [ "54.0 + v.d3 + v.d4 + v.d5 + v.d6", "q.is_swimming ? -849 + v.dof : -832 + v.dof", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				 "day_rib" : {
+				  "position" : [ "54.0 + v.d4 + v.d5 + v.d6", "q.is_swimming ? -849 + v.dof : -832 + v.dof", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				 "day_pulrib" : {
+				  "position" : [ "54.0 + v.d5 + v.d6", "q.is_swimming ? -849 + v.dof : -832 + v.dof", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				 "day_ratrib" : {
+				  "position" : [ "54.0 + v.d6", "q.is_swimming ? -849 + v.dof : -832 + v.dof", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				 "day_jt" : {
+				  "position" : [ 54.0, "q.is_swimming ? -849 + v.dof : -832 + v.dof", 0.0 ],
+			    "scale" : 0.35
+				}, 
+				"day" : {
+				  "position" : [ 41.5, "q.is_swimming ? -864 + v.dof : -847 + v.dof", 0.0 ],
+			    "scale" : 1.5
+				}, 
+				"day_bg" : {
+				  "position" : [ "5.0 + v.d1 + v.d2 + v.d3 + v.d4 + v.d5 + v.d6", "q.is_swimming ? -942.0 + v.dof : -925.0 + v.dof", 0.5 ],
+			    "scale" : 8
+				}
+			}
+		}
+	}
+}

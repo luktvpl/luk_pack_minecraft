@@ -28,3 +28,4 @@ co paczka zawiera :
 -krótkie miecze  
 -zmieniona nazwa jedzenia (pokazuje ile głodu odnawia)  
 -zmiana tekstury (trawa,magnetyt,obserwer,hoper)  
+-stół alchemiczny (ściąga)

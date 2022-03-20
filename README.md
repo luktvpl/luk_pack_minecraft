@@ -14,4 +14,17 @@ wykorzystane paczki to :
 -podgląd użyć - https://mcpedl.com/durability-viewer-resource-pack/  
 -szkło w drzwiach - https://mcpedl.com/glass-doors-texture-pack/  
 -inne - https://bedrocktweaks.net/resource-packs/  
--pozostałe - ja  
+-pozostałe - ja 
+  
+co paczka zawiera :  
+-obrazy z konkursu na moim dc  
+-pelerynka teamu fox  
+-totem luk  
+-pasek głodu (borówki)  
+-mgła w netherze (teorytycznie brak)  
+-odtwarzecz muzyki (czat)  
+-podgląd użyć (po kliknięciu na przedmiot)  
+-szkło w drzwiach  
+-krótkie miecze  
+-zmieniona nazwa jedzenia (pokazuje ile głodu odnawia)  
+-zmiana tekstury (trawa,magnetyt,obserwer,hoper)  

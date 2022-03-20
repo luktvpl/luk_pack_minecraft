@@ -1,0 +1,8 @@
+{
+   "resource_pack_name" : "TechnoTotem_RP_1.18",
+   "texture_data" : {
+		 "totem" : {
+         "textures" : "textures/items/totem"
+			 },
+			 "texture_name" : "atlas.items"
+		 }

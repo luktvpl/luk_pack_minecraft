@@ -4,7 +4,7 @@
         "description": "luk_pack",
         "name": "paczka luka",
         "uuid": "7f78abfc-32eb-4c87-aa73-1210ab02a5ad",
-        "version": [0, 2, 1],
+        "version": [0, 2, 3],
         "min_engine_version": [ 1, 18, 10 ]
     },
     "modules": [

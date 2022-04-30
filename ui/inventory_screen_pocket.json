@@ -1,14 +1,6 @@
 {
 	"namespace": "crafting_pocket",
 
-	"right_panel": {
-		"modifications": [
-			{
-				"control_name": "help_button",
-				"operation": "remove"
-			}
-		]
-	},
 "pocket_armor_tab_content/equipment_and_renderer/equipment/armor_grid": {
     "controls": [
       {

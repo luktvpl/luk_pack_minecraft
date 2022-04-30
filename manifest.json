@@ -4,7 +4,7 @@
         "description": "luk_pack",
         "name": "paczka luka",
         "uuid": "7f78abfc-32eb-4c87-aa73-1210ab02a5ad",
-        "version": [0, 2, 3],
+        "version": [0, 2, 4],
         "min_engine_version": [ 1, 18, 10 ]
     },
     "modules": [
@@ -14,17 +14,5 @@
             "uuid": "2c5eea13-aab3-4865-81f8-660d17a8e9ba",
             "version": [0, 0, 1]
         }
-    ],
-	"subpacks": [
-      {
-         "folder_name": "pelerynka",
-         "name": "z pelerynką",
-         "memory_tier": 1
-      },
-      {
-         "folder_name": "brak",
-         "name": "bez pelerynki",
-         "memory_tier": 1
-      }
-   ]
+    ]
 }

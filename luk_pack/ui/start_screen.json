@@ -12,10 +12,10 @@
 					"type": "stack_panel",
 					"size": [132,"100%"],
 					"controls": [
-						{"l": {"type": "image","texture": "pack","size": [128,128]}},
-						{"u": {"type": "panel","size": [6,6]}},
-						{"k": {"type": "label","font_scale_factor": 1.5,"text": " §lluk_pack"}},
-						{"a": {"type": "label","font_scale_factor": 1.2,"text": "§lby:luktvpl"}}
+						{"h": {"type": "image","texture": "pack","size": [128,128]}},
+						{"w": {"type": "panel","size": [6,6]}},
+						{"m": {"type": "label","font_scale_factor": 1.5,"text": " §lluk_pack"}},
+						{"c": {"type": "label","font_scale_factor": 1.2,"text": "§lby:luktvpl"}}
 					]
 				}
 			},
@@ -26,18 +26,17 @@
 					"controls": [
 						{"l": {"type": "label","font_scale_factor": 1.7,"text": "§lPaczka luk'a"}},
 						{"u": {"type": "label","font_scale_factor": 1.2,"text": "zawierajaca miedzy innymi :"}},
-						{"k": {"type": "label","font_scale_factor": 0.8,"text": "§1-odtwarzacz muzyki"}},
-						{"a": {"type": "label","font_scale_factor": 0.8,"text": "§2-podglad uzyc przedmitow"}},
-						{"0": {"type": "label","font_scale_factor": 0.8,"text": "§3-zmienione obrazy"}},
-						{"1": {"type": "label","font_scale_factor": 0.8,"text": "§4-szklo w drzwiach"}},
+						{"k": {"type": "label","font_scale_factor": 0.8,"text": "§2-odtwarzacz muzyki"}},
+						{"a": {"type": "label","font_scale_factor": 0.8,"text": "§3-podglad uzyc przedmitow"}},
+						{"0": {"type": "label","font_scale_factor": 0.8,"text": "§4-zmienione obrazy"}},
 						{"2": {"type": "label","font_scale_factor": 0.8,"text": "§5-sciage w stole alchemicznym"}},
 						{"3": {"type": "label","font_scale_factor": 0.8,"text": "§6-zmieniony pasek glody"}},
-						{"4": {"type": "label","font_scale_factor": 0.8,"text": "§7-zmodyfikowana lunete"}},
+						{"4": {"type": "label","font_scale_factor": 0.8,"text": "§7-ciemny motyw"}},
 						{"5": {"type": "label","font_scale_factor": 0.8,"text": "§8-totem i pelerynke luk'a"}},
-						{"6": {"type": "label","font_scale_factor": 0.8,"text": "§9-zmiana tekstur"}},
+						{"6": {"type": "label","font_scale_factor": 0.8,"text": "§9-zmiane tekstur i dzwienkow"}},
 						{"7": {"type": "label","font_scale_factor": 0.8,"text": "§a-podglad saturacji jedzenia"}},
 						{"8": {"type": "label","font_scale_factor": 0.8,"text": "§bwgrywaj wlasna muzyke z : luk_pack_container'em"}},
-						{"8": {"type": "label","font_scale_factor": 0.9,"text": "§l§czapraszam na strone : luktvpl.github.io"}},
+						{"b": {"type": "label","font_scale_factor": 0.9,"text": "§l§czapraszam na strone : luktvpl.github.io"}},
 						{"9": {"type": "label","font_scale_factor": 0.9,"text": "§l§dzapraszam na dc : luktvpl.github.io/dc"}}
 					]
 				}

@@ -30,8 +30,8 @@ co paczka zawiera :
 -zmiana tekstury (trawa,magnetyt,obserwer,hoper)  
 -stół alchemiczny (ściąga)
 
-faq:
-chcesz dodać własną muzykę?
--użyj luk_pack_container'a
-masz inne pytania?
+faq:  
+chcesz dodać własną muzykę?  
+-użyj luk_pack_container'a  
+masz inne pytania?  
 -zapraszam na dc : http://luktvpl.github.io/dc

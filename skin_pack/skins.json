@@ -1,0 +1,13 @@
+{
+  "skins" : [
+    {
+      "type" : "free",
+      "geometry" : "geometry.humanoid.custom",
+      "localization_name" : "luk",
+      "texture" : "luk.png"
+    }
+  ],
+  "geometry" : "skin_pack/geometry.json",
+  "localization_name" : "Luk paczka skinów",
+  "serialize_name" : "Luk paczka skinów"
+}

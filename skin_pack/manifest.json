@@ -1,0 +1,23 @@
+{
+  "header" : {
+    "name" : "Luk paczka skinów",
+    "version" : [
+      1,
+      0,
+      0
+    ],
+    "uuid" : "F79DDB42-F057-4DD2-A369-133DF903E389"
+  },
+  "modules" : [
+    {
+      "type" : "skin_pack",
+      "version" : [
+        1,
+        0,
+        0
+      ],
+      "uuid" : "89BFBB4E-2727-42A4-87FC-23BBB256918E"
+    }
+  ],
+  "format_version" : 1
+}

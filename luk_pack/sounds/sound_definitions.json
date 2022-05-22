@@ -1,9 +1,5 @@
 {
-"random.totem" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "player",
-         "sounds" : [ "sounds/random/use_totem" ]
-			 },
+
   "phone.music.1": {
     "category": "ui",
     "sounds": [

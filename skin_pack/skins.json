@@ -5,9 +5,56 @@
       "geometry" : "geometry.humanoid.custom",
       "localization_name" : "luk",
       "texture" : "luk.png"
+    },
+    {
+      "type" : "free",
+      "geometry" : "geometry.humanoid.custom",
+      "localization_name" : "luk_fox",
+      "texture" : "fox.png"
+    },
+    {
+      "type" : "free",
+      "geometry" : "geometry.humanoid.custom",
+      "localization_name" : "luk_swag",
+      "texture" : "swag.png"
+    },
+    {
+      "type" : "free",
+      "geometry" : "geometry.humanoid.custom",
+      "localization_name" : "luk_sad",
+      "texture" : "sad.png"
+    },
+    {
+      "type" : "free",
+      "geometry" : "geometry.humanoid.custom",
+      "localization_name" : "luk_russia",
+      "texture" : "russia.png"
+    },
+    {
+      "type" : "free",
+      "geometry" : "geometry.humanoid.custom",
+      "localization_name" : "luk_goly",
+      "texture" : "no_clothes.png"
+    },
+    {
+      "type" : "free",
+      "geometry" : "geometry.humanoid.custom",
+      "localization_name" : "luk_gentelman",
+      "texture" : "gentelman.png"
+    },
+    {
+      "type" : "free",
+      "geometry" : "geometry.humanoid.custom",
+      "localization_name" : "luk_eeem",
+      "texture" : "eeem.png"
+    },
+    {
+      "type" : "free",
+      "geometry" : "geometry.humanoid.custom",
+      "localization_name" : "luk_angry",
+      "texture" : "angry.png"
     }
   ],
-  "geometry" : "skin_pack/geometry.json",
   "localization_name" : "Luk paczka skinów",
   "serialize_name" : "Luk paczka skinów"
 }
